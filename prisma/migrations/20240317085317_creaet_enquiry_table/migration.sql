@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Enquiry" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "phone" TEXT NOT NULL,
+    "area" INTEGER NOT NULL,
+    "avgMonthlyBill" INTEGER NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
